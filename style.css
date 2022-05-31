@@ -29,6 +29,53 @@ a {
     padding: 10px 10px;
 }
 
+
+
+
+/* NEXT SECTION */
+
+
+
+.hero-section {
+    padding-top:50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: #1f2937;
+}
+
+.hero-text {
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero-text-right {
+   
+    max-width: 800px;
+} 
+
+.hero-subtext {
+    padding: 10px;
+}
+
+
+.hero-image {
+    margin-right: 100px;
+    padding: 150px;
+    width: 700px;
+    height: 100;
+}
+
+.hero-btn {
+    max-height: 40px;
+    font-size:15px;
+    padding:3px 25px;
+    background-color:rgb(26, 133, 220) ;
+    color:white;
+    border-radius: 10px;
+}
 /* NEXT SECTION */
 
 
@@ -149,3 +196,13 @@ justify-items: center;
     font-weight: 700;
 }
 
+/* NEXT SECTION */
+
+.footer-text {
+    margin-top: 150px;
+    padding: 40px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color:#f9faf8;
+}

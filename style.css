@@ -22,6 +22,53 @@ header {
 a {
     text-decoration: none;
     font-size: 18px;
-    color: #919293;
+    color: #d0d5da;
     padding: 10px 10px;
+}
+.boxes {
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    border-radius: 10%;
+    width: 150px;
+    height: 180px;
+    border: solid 4px rgb(10, 108, 246);
+     width: 100px;
+  height: 100px;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    padding: 10px 15px;
+}
+
+.images-info {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap:35px;
+}
+
+
+
+.column-text {
+    overflow-wrap: normal;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
 }
